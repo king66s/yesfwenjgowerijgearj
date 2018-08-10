@@ -8,7 +8,7 @@ KiNg66S.on('message', message => {
   if (!message.content.startsWith(PREFIX)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "441683368418082836") return;
+  if (message.author.id !== "474520407450320899") return;
 
   
   if (message.content.startsWith(PREFIX + 'setwatch')) {
